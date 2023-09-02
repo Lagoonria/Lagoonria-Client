@@ -1,0 +1,25 @@
+:root {
+    --gray_title: #696969;
+    --highlight_green: #125734;
+    --black_0: #000000;
+    --black_1: #111111;
+    --gray_0: #B0B0B0;
+    --white_0: #F9F9F9;
+    --white_1: #FFFFFF;
+    --green_tints_0: #56764A;
+    --green_tints_1: #7BA36C;
+    --green_tints_2: #A7C29D;
+    --green_tints_3: #D3E0CE;
+    --green_shades_0: #080B07;
+    --green_shades_1: #11170E;
+    --green_shades_2: #192316;
+    --green_shades_3: #212E1D;
+    --green_shades_4: #2A3A24;
+    --danger_color: #e35649;
+    --basic_paragraph_size: 12px;
+    --sm: 576px;
+    --md: 820px;
+    --lg: 992px;
+    --xl: 1200px;
+    --xxl: 1600px;
+}

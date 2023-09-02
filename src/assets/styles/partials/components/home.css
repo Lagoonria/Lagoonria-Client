@@ -1,0 +1,272 @@
+.home-layout {
+    background-color: var(--white_1);
+    padding: 0;
+    height: auto;
+    overflow-x: hidden;
+}
+
+/* header styles */
+.header-layout {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo img {
+    width: 130px;
+    padding-top: 20px;
+}
+
+.header-links {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.header-links a {
+    color: var(--black_0);
+}
+
+.header-button Button {
+    border: none;
+    font-weight: 500;
+}
+
+/* hero section styles */
+.hero-layout {
+    width: 100vw;
+    height: 100vh;
+    background: url('../../../images/Hero.jpg') no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center center;
+}
+
+.hero-content {
+    width: fit-content;
+}
+
+.hero-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.hero-buttons Button {
+    border: none;
+    font-weight: 500;
+}
+
+/* About us section styles */
+.aboutUs-layout {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.aboutUs-layout img {
+    width: 40%;
+    height: 50%;
+    opacity: 0.5;
+}
+
+.aboutUs-text-container {
+    width: 50vw;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Service section styles */
+.service-layout {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+.service-layout-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.service-title {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-details {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* What People Say styles */
+.people-feedback-layout {
+    width: 100vw;
+    height: 80vh;
+}
+
+.people-feedback-header {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.people-feedback {
+    width: 70%;
+    height: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.feedback-left {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.feedback-middle {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    align-items: center;
+    text-align: center;
+    /* background-color: #4545d4; */
+}
+
+.people-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.people-position {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.people-feedback {
+    font-size: 12px;
+}
+
+.feedback-right {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Contact Us styles */
+.contact-us-layout {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-main-box {
+    width: 80%;
+    height: auto;
+}
+
+.contact-form-button Button {
+    border: none;
+    font-weight: 500;
+}
+
+/* App footer styles */
+.app-footer-layout {
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+}
+
+.footer-data {
+    width: 100%;
+    height: 80%;
+    background-color: var(--green_tints_3);
+    display: flex;
+}
+
+.copyright {
+    width: 100%;
+    height: 20%;
+    background-color: var(--green_shades_0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright p {
+    color: var(--white_1);
+    font-size: var(--basic_paragraph_size);
+}
+
+.contact-details {
+    width: 30%;
+    height: 100%;
+    padding-left: 50px;
+}
+
+.social-media {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-links {
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.address {
+    width: 30%;
+    height: 100%;
+    padding-left: 50px;
+}
+
+.address-heading {
+    font-weight: bold;
+}
+
+.address-data {
+    font-size: var(--basic_paragraph_size);
+}
+
+.contact-heading {
+    font-weight: bold;
+}
+
+.contact-data {
+    font-size: var(--basic_paragraph_size);
+}

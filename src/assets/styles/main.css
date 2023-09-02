@@ -1,0 +1,6 @@
+@import './_variables.css';
+@import './partials/pages/common/login.css';
+@import './partials/pages/common/register.css';
+@import './partials//pages/common/forgotPassword.css';
+@import './partials/pages/common/resetPassword.css';
+@import './partials/components/home.css';
